@@ -1,5 +1,6 @@
 package H02;
 
+
 import java.applet.Applet;
 import java.awt.*;
 
@@ -7,8 +8,8 @@ public class Demo extends Applet {
 
     @Override
     public void paint(Graphics g) {
-        g.setColor(Color.BLUE);
-        g.drawString( "hh", 40, 40);
-
+        setBackground(Color.blue);
+        g.setColor(Color.yellow);
+        g.drawString("Romano", 40, 40);
     }
 }
